@@ -1,0 +1,39 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MovieVault</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+<header>
+    <h1> MovieVault</h1>
+
+    <input type="text" id="search-input" placeholder="Search movies..." />
+    <button id="search-btn">Search</button>
+</header>
+
+<div id="error"></div>
+<div id="loading" class="hidden">Loading...</div>
+
+<h2>Results</h2>
+<div id="results"></div>
+
+<h2>Favorites</h2>
+<div id="favorites"></div>
+
+<!-- MODAL -->
+<div id="modal" class="modal hidden">
+    <div class="modal-content">
+        <span id="close-modal">&times;</span>
+        <div id="modal-body"></div>
+    </div>
+</div>
+
+<script type="module" src="js/app.js"></script>
+
+</body>
+</html>
