@@ -1,2 +1,2 @@
-export const API_KEY = 'YOUR_REAL_API_KEY_HERE';
+export const API_KEY = '52065f5e';
 export const BASE_URL = 'https://www.omdbapi.com/';
