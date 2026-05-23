@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieVault</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header>
+        <h1> MovieVault</h1>
+
+        <div class="search-container">
+            <input
+                type="text"
+                id="search-input"
+                placeholder="Search for movies..."
+            />
+
+            <button id="search-btn">Search</button>
+        </div>
+    </header>
+
+    <main>
+
+        <div id="error"></div>
+
+        <div id="loading" class="hidden">
+            Loading movies...
+        </div>
+
+        <section>
+            <h2>Search Results</h2>
+            <div id="results" class="movies-grid"></div>
+        </section>
+
+        <section>
+            <h2>Favorite Movies</h2>
+            <div id="favorites" class="movies-grid"></div>
+        </section>
+
+    </main>
+
+    <!-- MODAL -->
+    <div id="modal" class="modal hidden">
+        <div class="modal-content">
+            <span id="close-modal">&times;</span>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <script type="module" src="js/app.js"></script>
+
+</body>
+</html>
