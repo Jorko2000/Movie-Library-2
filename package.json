@@ -1,0 +1,13 @@
+{
+  "name": "movie-library-2",
+  "version": "1.0.0",
+  "description": "Movie Library Application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "author": "Jorko2000",
+  "license": "MIT",
+  "dependencies": {}
+}
